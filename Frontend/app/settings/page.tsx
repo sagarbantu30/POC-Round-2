@@ -209,10 +209,9 @@ export default function SettingsPage() {
                         value={formData.top_k}
                         onChange={(e) => setFormData({ ...formData, top_k: parseInt(e.target.value) })}
                         min="1"
-                        max="20"
                       />
                       <p className="text-xs text-gray-500 mt-1">
-                        Number of documents to retrieve (1-20)
+                        Number of documents to retrieve (min: 1)
                       </p>
                     </div>
                   </div>
