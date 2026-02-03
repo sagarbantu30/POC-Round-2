@@ -51,7 +51,7 @@ export default function DocumentChatPage() {
     try {
       const response = await chatApi.chat({
         query: input,
-        document_id: selectedDoc,
+        document_id: selectedDoc.toString(),
         use_company_policy: false,
       });
 
