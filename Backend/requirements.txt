@@ -1,0 +1,38 @@
+# FastAPI and Web Server
+fastapi[standard]
+uvicorn
+python-multipart
+
+# Pydantic and Settings
+pydantic
+pydantic-settings
+
+# MongoDB (async driver)
+motor
+pymongo
+
+# Security and Authentication
+python-jose[cryptography]
+passlib[argon2]
+argon2-cffi
+
+# Environment Variables
+python-dotenv
+
+# LangChain and RAG
+langchain
+langchain-core
+langchain-openai
+langchain-postgres
+psycopg[binary]
+langchain-text-splitters
+langchain-community
+openai
+
+# Document Processing
+pypdf
+python-docx
+
+# Development
+pytest
+httpx
